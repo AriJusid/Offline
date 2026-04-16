@@ -348,10 +348,8 @@ body{
 }
 
 .epigra{
-    margin-top: 100px;
-    font-weight: 500;
-    color: var(--muted);
-
+  padding-bottom: 20px;
+  color: var(--muted);
 }
 .article-strip{
   display:flex;
