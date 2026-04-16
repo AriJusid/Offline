@@ -205,7 +205,6 @@ body{
   margin:0 0 10px 0;
   font-size:20px;
   letter-spacing:.8px;
-  font-weight:800;
 }
 .content p{
   margin:0 auto;
@@ -480,7 +479,6 @@ body{
   font-size:14px;
   letter-spacing:.8px;
   text-transform:uppercase;
-  font-weight:900;
 }
 
 .quote{
