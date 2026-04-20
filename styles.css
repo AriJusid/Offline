@@ -117,7 +117,7 @@ body{
   display:flex;
   align-items:flex-start;
   margin-top:10px;
-  width: 80%;
+  width: 900px;
 }
 
 .brand{
@@ -206,8 +206,17 @@ body{
 .latest span{opacity:.95}
 
 .latest-news{
-  background:rgba(139,0,0,.12);
-  border:1px solid rgba(139,0,0,.35);
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%);
+  bottom:15px;
+  width:min(620px, 40%);
+  background:var(--red);
+  padding:10px 14px;
+  font-size:12px;
+  border:1px solid rgba(255,255,255,.08);
+  box-shadow:0 8px 18px rgba(0,0,0,.35);
+
 }
 /* ===== article heading ===== */
 .content{
@@ -224,7 +233,7 @@ body{
   max-width:650px;
   color:var(--muted);
   font-size:11px;
-  line-height:1.55;
+  line-height:1.9;
 }
 
 /* ===== 3 columns ===== */
@@ -265,7 +274,7 @@ body{
   margin:10px auto 0;
   font-size:10.5px;
   color:var(--muted);
-  line-height:1.55;
+  line-height:1.75;
   max-width:260px;
 }
 
@@ -332,7 +341,7 @@ body{
 }
 
 .crumbs{
-  font-size:11px;
+  font-size:13px;
   color:var(--muted);
   white-space:nowrap;
 }
@@ -479,7 +488,7 @@ body{
   margin:0 0 12px 0;
   color:#d8d8d8;
   font-size:16px;
-  line-height:1.75;
+  line-height:1.95;
 }
 .article-body .lead{
   font-size:20px;
