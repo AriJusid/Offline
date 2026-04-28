@@ -10,7 +10,7 @@
 *{box-sizing:border-box}
 body{
   margin:0;
-  font-family: Inter, Helvetica, sans-serif;
+  font-family: "Inter", Helvetica, sans-serif;
   background: radial-gradient(1200px 600px at 50% 0%, #222 0%, var(--bg) 55%, var(--bg2) 100%);
   color:var(--text);
 }
@@ -57,7 +57,7 @@ body{
   display:flex;
   gap:22px;
   font-size:15px;
-    font-weight: 200;
+    font-weight: 500;
 
 }
 .nav a{
@@ -169,7 +169,7 @@ body{
 }
 .tagline .t1{
   font-size:22px;
-
+  font-weight: 600;
 }
 
 
@@ -232,7 +232,7 @@ body{
   margin:0 auto;
   max-width:650px;
   color:var(--muted);
-  font-size:11px;
+  font-size:14px;
   line-height:1.9;
 }
 
@@ -265,14 +265,14 @@ body{
 }
 .card h3{
   margin:0;
-  font-size:11px;
+  font-size:16px;
   letter-spacing:.8px;
-  font-weight:800;
+  font-weight:600;
   text-transform:uppercase;
 }
 .card p{
   margin:10px auto 0;
-  font-size:10.5px;
+  font-size:14px;
   color:var(--muted);
   line-height:1.75;
   max-width:260px;
@@ -304,7 +304,6 @@ body{
    ========================= */
 
 .nav a.is-active{
-  font-weight:800;
   text-decoration:underline;
 }
 
@@ -408,7 +407,7 @@ body{
   margin:0 0 10px 0;
   font-size:40px;
   letter-spacing:.3px;
-  font-weight:900;
+  font-weight:700;
 }
 .article-title .deck{
   color:var(--muted);
@@ -439,7 +438,7 @@ body{
 }
 .aside-box h3{
   margin:0 0 10px 0;
-  font-size:11px;
+  font-size:14px;
   letter-spacing:1px;
   text-transform:uppercase;
   font-weight:900;
@@ -453,7 +452,7 @@ body{
 .aside-list a{
   color:#eaeaea;
   text-decoration:none;
-  font-size:11px;
+  font-size:12px;
   line-height:1.45;
   opacity:.9;
 }
@@ -489,11 +488,13 @@ body{
   color:#d8d8d8;
   font-size:16px;
   line-height:1.95;
+  font-weight: 500;
 }
 .article-body .lead{
   font-size:20px;
   color: var(--muted);
   margin-bottom: 4%;
+  font-weight: 600;
 }
 .article-body h2{
   margin:16px 0 8px;
@@ -507,7 +508,7 @@ body{
   padding:12px 14px;
   border-left:4px var(--red) solid;
   background:rgba(255,255,255,.04);
-  color:#f0f0f0;
+  color:#fff;
   font-size:15px;
   line-height:1.7;
   font-style:italic;
@@ -594,7 +595,7 @@ body{
 .tags a{
   color:#fff;
   text-decoration:none;
-  font-size:11px;
+  font-size:12px;
   padding:5px 8px;
   background:rgba(0,0,0,.25);
   border:1px solid rgba(255,255,255,.14);
@@ -604,8 +605,7 @@ body{
 .back{
   color:#fff;
   text-decoration:none;
-  font-size:11px;
-  font-weight:800;
+  font-size:14px;
   opacity:.95;
 }
 .back:hover{ text-decoration:underline; }
