@@ -32,7 +32,6 @@
       </div>
     </div>
   </header>
-    <div class="side">Volver al inicio</div>
 
   <main class="wrap">
 
@@ -59,41 +58,81 @@
         <span> Mattel y OpenAI se alían para transformar el juego con inteligencia artificial</span>
       </div>
     </section>
+      </main>
 
-    <section class="content">
-      <h2>MÁS ALLÁ DE UN JUEGO</h2>
+    <section class="offline-news-section" aria-label="Offline - artículos y noticias">
+  <div class="offline-news-grid">
+    <!-- Columna izquierda (texto) -->
+    <article class="offline-card offline-card--intro">
+      <h3 class="offline-kicker">MÁS ALLÁ DE UN<br />JUEGO</h3>
       <p>
-        It is a long established fact that a reader will be distracted by the readable content of a page
-        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-        distribution of letters, as opposed to using Content here, content here.
+        Los juegos de mesa se transformaron en una alternativa al consumo constante de
+        pantallas. Cada partida propone una experiencia compartida, donde la estrategia,
+        la creatividad y la interacción ocupan el centro de la escena. <br><br>Offline explora este
+        fenómeno desde una mirada cultural y social, poniendo el foco en las conexiones que
+        nacen alrededor de una mesa. Encontrá eventos, recomendaciones y espacios donde
+        conocer personas con la misma pasión por jugar cara a cara.
+      </p>
+    </article>
+
+    <!-- Centro (imagen + overlay) -->
+    <article class="offline-card offline-card--hero">
+      <a class="offline-hero" href="#" aria-label="Una nueva forma de jugar, activá el modo OFFLINE">
+        <img
+          class="offline-hero__img"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI-SzyWmadQsHoqx1AhTGXvBZ2MZDv_n5WEA&s"
+          alt="Personas jugando juegos de mesa"
+          loading="lazy"
+          decoding="async"
+        />
+        <div class="offline-hero__overlay">
+          <p class="offline-hero__title">Una nueva forma de<br />jugar, activá el modo</p>
+          <p class="offline-hero__word">OFFLINE</p>
+        </div>
+      </a>
+    </article>
+
+    <!-- Derecha (texto + imagen) -->
+    <article class="offline-card offline-card--side">
+      <p class="offline-side__text">
+        Estrategia, creatividad y trabajo en equipo se combinan en experiencias pensadas
+        para disfrutar entre amigos, en reuniones o encuentros sociales.
       </p>
 
-      <div class="cards">
-        <article class="card">
-          <div class="star" aria-hidden="true"></div>
-          <h3>Lorem Ipsum</h3>
-          <p>
-            It is a long established fact that a reader will be distracted by the readable content.
-          </p>
-        </article>
+      <a class="offline-side__media" href="#" aria-label="Ver nota destacada">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiUZeeAy7j-JDXgFXFmB9v5DwqqaVzf4krqQ&s"
+          alt="Mesa con personas jugando juegos de mesa"
+          loading="lazy"
+          decoding="async"
+        />
+      </a>
+    </article>
 
-        <article class="card">
-          <div class="star" aria-hidden="true"></div>
-          <h3>Lorem Ipsum</h3>
-          <p>
-            It is a long established fact that a reader will be distracted by the readable content.
-          </p>
-        </article>
+    <!-- Abajo izquierda (barra roja + imagen) -->
+    <article class="offline-card offline-card--updates">
+      <div class="offline-updates__bar">Mantenéte al tanto con las últimas noticias</div>
+      <a class="offline-updates__media" href="news.html" aria-label="Últimas noticias">
+        <img
+          src="https://eddis.edu.ar/wp-content/uploads/2025/09/imagen_redimensionada_1757893148246.jpg"
+          alt="Pantalla con noticias"
+          loading="lazy"
+          decoding="async"
+          style="    margin-right: 100px;
+"
+        />
+      </a>
+    </article>
 
-        <article class="card">
-          <div class="star" aria-hidden="true"></div>
-          <h3>Lorem Ipsum</h3>
-          <p>
-            It is a long established fact that a reader will be distracted by the readable content.
-          </p>
-        </article>
-      </div>
-    </section>
-  </main>
+    <!-- Abajo derecha (titular + bajada) -->
+    <article class="offline-card offline-card--headline">
+      <h3>Mattel y OpenAI se alían<br />para transformar el juego<br />con inteligencia artificial</h3>
+      <p>
+        La reconocida firma de juegos trabajará con OpenAI para desarrollar nuevas experiencias que
+        integren el uso de inteligencia artificial
+      </p>
+    </article>
+  </div>
+</section>
 </body>
 </html>
