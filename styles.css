@@ -3,7 +3,7 @@
   --bg2:#0f0f0f;
   --text:#f2f2f2;
   --muted:#bdbdbd;
-  --red:#8b0000;
+  --red:#5e0606;
   --line:rgba(255,255,255,.25);
 }
 
@@ -248,7 +248,7 @@ body{
 .card .star{
   width:34px;height:34px;
   margin:0 auto 14px;
-  background:#7a0000;
+  background:var(--red);
   clip-path: polygon(
     50% 0%,
     61% 35%,
@@ -690,12 +690,12 @@ body{
     flex-direction: column;
     justify-content: flex-end;
     padding: 18px 18px 20px;
-    background: linear-gradient(180deg, rgba(140, 0, 0, 0.15) 0%, rgba(140, 0, 0, 0.65) 55%, rgba(140, 0, 0, 0.75) 100%);
+    background: linear-gradient(180deg, rgba(140, 0, 0, 0.15) 0%, rgba(98, 2, 2, 0.65) 55%, rgba(77, 2, 2, 2) 100%);
   }
 
   .offline-hero__title {
     margin: 0 0 6px;
-    font-size: clamp(16px, 1.4vw, 22px);
+    font-size: 1.7rem;
     color: #f0f0f0;
     line-height: 1.15;
     font-weight: 500;
@@ -703,7 +703,7 @@ body{
 
   .offline-hero__word {
     margin: 0;
-    font-size: clamp(30px, 2.8vw, 44px);
+    font-size: 3rem;
     font-weight: 900;
     letter-spacing: 0.02em;
     color: #ffffff;
@@ -720,7 +720,7 @@ body{
     font-size: clamp(13px, 1vw, 15px);
     line-height: 1.6;
     color: #e2e2e2;
-    background:  rgba(140, 0, 0, 0.65);
+    background:  var(--red);
     padding: 12px 14px;
   }
 
@@ -745,7 +745,7 @@ body{
   }
 
   .offline-updates__bar {
-    background: #8b0000;
+    background: var(--red);
     color: #ffffff;
     font-weight: 700;
     padding: 12px 14px;
