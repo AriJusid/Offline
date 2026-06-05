@@ -1740,9 +1740,11 @@ footer a:hover{
 
 .interview-featured-image__photo {
   width: 100%;
-  height: auto;
+  height: 500px;
   display: block;
   margin-bottom: 12px;
+    object-fit: cover;
+
   border: 1px solid var(--interview-border);
 }
 
