@@ -1759,14 +1759,14 @@ footer a:hover{
   display: grid;
   grid-template-columns:  300px 1fr;
   gap: 40px;
-  margin-bottom: 60px;
 }
 
 /* ===== Q&A SECTION ===== */
 .interview-qa-section {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+    text-align: justify;    
+
 }
 
 .interview-qa-item {
@@ -2188,4 +2188,8 @@ footer a:hover{
   --interview-text-muted: #bdbdbd;
   --interview-accent-red: #5e0606;
   --interview-border: rgba(255, 255, 255, 0.12);
+}
+
+.interview-qa-section p[id]{
+  scroll-margin-top: 100px;
 }
